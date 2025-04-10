@@ -12,6 +12,7 @@ You should install the following plugins for Jenkins:
 You can find the password for `admin` at the path `/var/jenkins_home/secrets/initialAdminPassword` in the container Jenkins.
 
 ### Push the whole code to Github for automatic deployment
+
 ```shell
 git add --all
 git commit -m "first attempt to deploy the model"
